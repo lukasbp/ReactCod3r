@@ -1,0 +1,24 @@
+.btn{
+    margin-right: 5px;
+}
+
+.markedAsDone{
+    text-decoration: line-through;
+    color: #777;
+}
+
+#app > div > div > div{
+    display: flex;
+}
+
+#app > div > div > div > div.col-xs-12col-sm-9col-md-10{
+    width: 88.7%;
+}
+
+#app > div > div > table > tbody > tr:nth-child(1) > td.markedAsDone{
+    width: 88%;
+}
+
+.todoForm{
+    padding-bottom: 60px;
+}
